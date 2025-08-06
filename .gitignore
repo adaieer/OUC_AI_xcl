@@ -1,1 +1,4 @@
 ﻿dataset/flower_data
+week3/ResNet/__pycache__
+week3/ResNet/resNet34.pth
+week3/ResNet/resnet34-pre.pth
