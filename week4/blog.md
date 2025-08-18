@@ -1,3 +1,5 @@
+# 第四周 [MobileNet_ShuffleNet](https://gitee.com/gaopursuit/ouc-dl/blob/master/week04.md)
+
 ## 第一部分：代码练习
 
 阅读论⽂《HybridSN: Exploring 3-D–2-DCNN Feature Hierarchy for Hyperspectral Image Classification》，思考3D卷积和2D卷积的区别。并阅读HybridSN的代码 ([实验指导链接](https://gitee.com/gaopursuit/ouc-dl/blob/master/lab/week04_HybridSN_GRSL2021.ipynb)) 

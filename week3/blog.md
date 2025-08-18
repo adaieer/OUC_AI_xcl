@@ -1,3 +1,5 @@
+# 第三周 [ResNet+ResNeXt](https://gitee.com/gaopursuit/ouc-dl/blob/master/week03.md)
+
 ## 思考题
 
 ### 1、Residual learning 的基本原理？
