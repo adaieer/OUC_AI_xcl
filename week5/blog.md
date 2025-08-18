@@ -4,10 +4,12 @@
 生成对抗网络 (GAN) 由两个模型构成, 生成模型 G 和判别模型 D, 随机噪声 z 通过 G 生成尽量服从真实数据分布 ${p_{data}}$ 的样本 G(z), 判别模型 D可以判断出输入样本是真实数据 x 还是生成数据G(z)。G 和 D 都可以是非线性的映射函数, 比如多层感知器。
 
 训练判别器，损失函数为：
-$\mathcal{L}_D = -\frac{1}{m}\sum_{i=1}^m [\log D(x_i) + \log(1 - D(G(z_i)))]$
+
+$$\mathcal{L}_D = -\frac{1}{m}\sum_{i=1}^m [\log D(x_i) + \log(1 - D(G(z_i)))]$$
 
 训练生成器，损失函数为：
-$\mathcal{L}_G = -\frac{1}{m}\sum_{i=1}^m \log D(G(z_i))$  
+
+$$\mathcal{L}_G = -\frac{1}{m}\sum_{i=1}^m \log D(G(z_i))$$  
 
 其中$D$为判别器，$G$为生成器，$z_i$为噪声，$x_i$为真实数据。
 
@@ -22,4 +24,4 @@ cGAN即条件生成对抗网络，在传统GAN的基础上，引入条件变量 
 dcGAN即深度生成对抗网络，生成器与判别器均采用卷积神经网络（CNN）替代全连接层‌，网络结构增强，生成的样本更接近真实样本。
 
 ## 3. 代码运行结果
-代码引用自 [github](https://github.com/wangguanan/Pytorch-Basic-GANs)，为适应本机环境，代码做了相应修改，限于时间即资源等因素，只跑了code/vanilla_gan.py，生成图片在gan_images文件夹下。
+代码引用自 [github](https://github.com/wangguanan/Pytorch-Basic-GANs)，为适应本机环境，代码做了相应修改，限于时间、资源等因素，只跑了code/vanilla_gan.py，生成后十个epoch的手写数字的图片在gan_images文件夹下。
