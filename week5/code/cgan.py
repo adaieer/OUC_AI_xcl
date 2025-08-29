@@ -34,7 +34,7 @@ class Discriminator(nn.Module):
 		layers = []
 		# 第一层
 		layers.append(nn.Linear(in_features=28*28+10, out_features=512, bias=True))
-		layers.append(nn.LeakyReLU(0.2, inplace=True))
+		layers.append(nn.LeakyReLU(0.2, inplace=True))  # inplace=True 改变输入数据，默认为false
 		# 第二层
 		layers.append(nn.Linear(in_features=512, out_features=256, bias=True))
 		layers.append(nn.LeakyReLU(0.2, inplace=True))

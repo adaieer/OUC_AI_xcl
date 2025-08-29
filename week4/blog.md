@@ -1,4 +1,15 @@
-# 第四周 [MobileNet_ShuffleNet](https://gitee.com/gaopursuit/ouc-dl/blob/master/week04.md)
+# 第四周 即插即用的注意力机制
+
+[飞书](https://oucaigroup.feishu.cn/wiki/EPVAw9ZoSiDULYkWbstcifU1nKh)
+[gitee](https://gitee.com/gaopursuit/ouc-dl/blob/master/week04.md)
+
+## 基本概念
+
+1. 即插即用：输入维度=输出维度的模块
+2. 跳跃连接
+3. 算法机制：局部建模(卷积)与全局建模(注意力)
+4. SENet结构如下：
+![示意图](./pictures/0.jpg)
 
 ## 第一部分：代码练习
 
